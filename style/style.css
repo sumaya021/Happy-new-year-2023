@@ -1,6 +1,7 @@
 .first{
     background-image: url(images/banner/banner2.png);
     background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     height: 700px;
     width: 100%;
@@ -43,13 +44,34 @@
 .courses{
     display: flex;
     justify-content:space-around;
+    margin-top: 30px;
 }
 .last{
     background-color: black;
     margin-top: 50px;
 }
 .hand-watch{
+    position: relative;
+    left: 170px;
     background-image: url(images/watch.png);
+    background: linear-gradient(rgba(98, 16, 153, 0.534));
+    background-repeat: no-repeat;
+    height: 400px;
+    width: auto;
+    margin-top: 50px;
+}
+.button-call{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: white;
+    color: orange;
+}
+.mindset{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    color: black;
+
 }
 .black{
     display: flex;
