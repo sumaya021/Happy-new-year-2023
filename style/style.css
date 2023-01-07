@@ -1,10 +1,16 @@
 .first{
     background-image: url(images/banner/banner2.png);
-    height:809px;
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 700px;
+    width: 100%;
 }
-.banner1{
-
+.banner{
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
 }
 .button{
      background-color: orange;
@@ -12,15 +18,52 @@
      color: white;
      padding: 10px;
 }
+.second{
+    margin-top: 50px;
+}
 .person{
     display: flex;
+    justify-content:space-around;
+    align-items: center;
 }
 .person-photo{
-    height: 700px; 
-    width: 500px;
+    width: 100%;
 }
 .photo-description{
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
+}
+.third{
+    margin-top: 50px;
+}
+.plan{
+    text-align: center;
+}
+.courses{
+    display: flex;
+    justify-content:space-around;
+}
+.last{
+    background-color: black;
+    margin-top: 50px;
+}
+.hand-watch{
+    background-image: url(images/watch.png);
+}
+.black{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.white{
+    color: white;
+}
+.sub-button{
+    margin-top: 10px;
 }
