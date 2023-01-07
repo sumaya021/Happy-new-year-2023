@@ -1,7 +1,7 @@
 .first{
     background-image: url(images/banner/banner2.png);
     height:809px;
-    width: 1600px;
+    background-repeat: no-repeat ;
 }
 .banner1{
 
@@ -11,4 +11,16 @@
      border-radius: 5px;
      color: white;
      padding: 10px;
+}
+.person{
+    display: flex;
+}
+.person-photo{
+    height: 700px; 
+    width: 500px;
+}
+.photo-description{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
