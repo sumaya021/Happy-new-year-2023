@@ -1,0 +1,14 @@
+.first{
+    background-image: url(images/banner/banner2.png);
+    height:809px;
+    width: 1600px;
+}
+.banner1{
+
+}
+.button{
+     background-color: orange;
+     border-radius: 5px;
+     color: white;
+     padding: 10px;
+}
